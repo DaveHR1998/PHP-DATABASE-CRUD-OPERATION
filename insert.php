@@ -25,16 +25,17 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
     <title>Document</title>
 </head>
 <body>
     <form action="insert.php" method="post">
-        <label for="image">Image</label>
-        <input type="text]==" name="image" id="">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="">
-        <label for="price">Price</label>
-        <input type="text" name="price" id="">
+        <h1>Update Data</h1>
+        <input type="text]==" name="image" id="" placeholder="image">
+        
+        <input type="text" name="name" id="" placeholder="product name">
+       
+        <input type="text" name="price" id="" placeholder="price">
         <input type="submit" value="Insert">
     </form>
 </body>
